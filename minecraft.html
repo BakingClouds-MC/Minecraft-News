@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Minecraft Single-page Website</title>
+    <style>
+        .cover {
+            background-image: url("bg/cover_img.jpg");
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Minecraft</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tutorials">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="cover">
+
+
+    </section>
+    <!-- News Section -->
+    <section id="news" class="container mt-5">
+        <h2>Latest News</h2>
+        <div class="row">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <a href="https://www.mustangjournal.com/post/minecraft-releases-new-cherry-grove-biome">
+                        <div class="carousel-item active">
+                            <img src="bg/cherry-house.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </a>
+                    <a href="https://www.minecraft.net/en-us/article/archeology-coming-minecraft-120">
+                        <div class="carousel-item">
+                            <img src="bg/archeology.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </a>
+                    <a href="https://afkgaming.com/esports/guide/minecraft-120-update-every-new-feature-revealed-by-mojang-so-far">
+                        <div class="carousel-item">
+                            <img src="bg/jungle.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </a>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div><!-- Add your news cards here -->
+        </div>
+    </section>
+
+    <!-- Tutorials Section -->
+    <section id="tutorials" class="container mt-5">
+        <h2>Tutorials</h2>
+        <div class="accordion" id="tutorialAccordion">
+            <!-- Add your tutorials accordions here -->
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="bg/firstday.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">First Day</h5>
+                            <p class="card-text">Essential tips for surviving in Minecraft.</p>
+                            <a href="https://www.minecraft.net/es-mx/article/how-survive-your-first-day" class="btn btn-primary">Click Me</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="bg/cropfarming.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Crop Farming</h5>
+                            <p class="card-text">Essential tips for getting food in Minecraft.</p>
+                            <a href="https://minecraft.fandom.com/wiki/Tutorials/Crop_farming" class="btn btn-primary">Click Me</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="bg/mining.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mining</h5>
+                            <p class="card-text">Essential tips for getting ores in Minecraft.</p>
+                            <a href="https://minecraft.fandom.com/wiki/Tutorials/Mining" class="btn btn-primary">Click Me</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container mt-5">
+        <h2>Gallery</h2>
+        <div class="row">
+            <div class="container px-4 py-5" id="custom-cards">
+
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('bg/2023-05-06_19.35.46.png');background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">SEUS Shaders on</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="bg/avatar-doraemon.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill" />
+                                        </svg>
+                                        <small>Earth</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3" />
+                                        </svg>
+                                        <small>3d</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('bg/2023-05-06_19.36.02.png');background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Default Minecraft</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="bg/avatar-steve.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill" />
+                                        </svg>
+                                        <small>Pakistan</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3" />
+                                        </svg>
+                                        <small>4d</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('bg/2023-05-06_19.38.51.png');background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Sildur's Shaders on</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="bg/avatar-canva.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill" />
+                                        </svg>
+                                        <small>California</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3" />
+                                        </svg>
+                                        <small>5d</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Add your gallery images here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-3">
+            <p class="text-center">&copy; 2023 Minecraft Single-page Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5XszpdReviewerQuscReviewerFtAWq:HHFJRyLIKGoICKzgsJmpzGxRftgtl0EymbZezTkl2uxTWhPCt:qNt" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
